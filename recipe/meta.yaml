@@ -20,12 +20,15 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
   run:
     - python
 
 test:
   imports:
     - boolean
+  commands:
+    - pip check
 
 about:
   home: https://github.com/bastikr/boolean.py
